@@ -97,7 +97,7 @@ li.dropdown {
 }
 
 #footer {
-  width: 40%;
+  width: 20%;
   margin: 0 10vw 10vh 10vw;
 }
 
@@ -122,7 +122,7 @@ li.dropdown {
   .fa-twitter {
     background: #55ACEE;
     color: white;
-
+  }
 /* grid layout for time page */
 
 .col-md-4 {
