@@ -96,14 +96,14 @@ li.dropdown {
   width: 100%;
 }
 
-p {
+#footer {
   width: 40%;
   margin: 0 10vw 10vh 10vw;
 }
 
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 50px;
   width: 30px;
   text-align: center;
   text-decoration: none;
