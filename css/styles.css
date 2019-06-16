@@ -1,3 +1,5 @@
+/* throughout all pages */
+
 body {
   font-family: 'Oswald', sans-serif;
   margin: 0;
@@ -8,6 +10,15 @@ body {
 .page-header {
   text-align: center;
   padding: 20px;
+}
+
+/* navbar */
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .buttons {
@@ -27,12 +38,9 @@ ul {
   font-size: 18pt;
 }
 
-
-
 li {
   float: left;
 }
-
 
 li a, .dropbtn {
   display: inline-block;
@@ -41,7 +49,6 @@ li a, .dropbtn {
   padding: 14px 32px;
   text-decoration: none;
 }
-
 
 .brand li a {
   padding: 8px 32px;
@@ -83,15 +90,13 @@ li.dropdown {
   color: green;
 }
 
+/* index.html page */
+
 #landingimage {
   width: 100%;
 }
 
-#navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+/* grid layout for time page */
 
 .col-md-4 {
   text-align: center;
@@ -105,14 +110,13 @@ li.dropdown {
   padding-bottom: 10px;
 }
 
-/* grid layout */
+/*grid layout for contact page */
 
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
   margin: 10px;
-
 }
 
 .column {
@@ -135,13 +139,43 @@ li.dropdown {
   }
 }
 
-/* grid layout */
-
 #content {
   margin-top: 50px;
 }
 
+/*subscription section*/
+
+
 #subscribe {
   text-align: center;
   align-items: center;
+}
+
+label {
+  font-size: 20px;
+}
+
+.form-control {
+  width: 50%;
+}
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    width: 100%;
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;/* Adjust this value to move the positioned div up and down */
+    text-align: center; /* Set the width of the positioned div */
+    font-size: 40px;
+    color: #BC352F;
+}
+
+
+
 }
