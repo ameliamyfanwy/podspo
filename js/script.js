@@ -9,7 +9,7 @@ $(document).ready(function() {
   });
 
 //alert button
-  $(".btn").click(function() {
+  $("#submit").click(function() {
     alert("Thanks, you are now subscribed!");
   });
 
