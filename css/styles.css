@@ -96,6 +96,28 @@ li.dropdown {
   width: 100%;
 }
 
+#footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.fa {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  height: 42px;
+  justify-content: center;
+  margin: 0 30px 0 0;
+  width: 40px;
+  }
+
+img {
+  display: inherit;
+  max-width: 100%;
+  }
 /* grid layout for time page */
 
 .col-md-4 {
